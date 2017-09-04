@@ -1,0 +1,19 @@
+{
+  "name": "date-daemon",
+  "version": "1.0.0",
+  "description": "Writes the date to any connection once a second.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudfind/date-daemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudfind/date-daemon/issues"
+  },
+  "homepage": "https://github.com/cloudfind/date-daemon#readme"
+}
