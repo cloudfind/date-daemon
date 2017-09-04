@@ -9,5 +9,5 @@ if (!IP) {
 const client = new net.Socket()
 client.connect(8000, IP, () => {
   client.on('data', data => process.stdout.write(data))
-  client.on('error', (err) => { console.error(err) })
+  client.on('error', err => { console.error(err) })
 })
