@@ -1,4 +1,4 @@
 FROM node:alpine
-COPY .
+COPY . .
 EXPOSE 8000
 CMD node app
