@@ -10,4 +10,5 @@ const server = net.createServer((socket) => {
     }
   }, 1000)
 })
+server.on('error', err => console.error(err))
 server.listen(8000, '0.0.0.0')
