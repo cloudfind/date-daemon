@@ -9,6 +9,10 @@ const server = net.createServer((socket) => {
       console.error(exc)
     }
   }, 1000)
+  socket.on('error', (err) => {
+    clearInterval(id)
+    console.error(err)
+  })
 })
 server.on('error', err => console.error(err))
 server.listen(8000, '0.0.0.0')
